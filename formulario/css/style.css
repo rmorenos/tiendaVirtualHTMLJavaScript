@@ -85,11 +85,14 @@ body{
     z-index: 0;
     width: 400px;
     height: 400px;
+    background-color: black;
    
 }
 
 .buttuns{
     float: right;
+    
+    
     
 }
 
