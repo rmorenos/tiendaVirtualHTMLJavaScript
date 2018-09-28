@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Servicio de recopilación de datos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    
+</head>
+<body>
+<div class="container">
+
+    <form action="" class="form" name="form" >
+        <div class="form-header">
+            <h1 class="form-title">C<span>ontacto</span></h1>
+        </div>
+
+        <label for="nombre" class="form-label">Nombres</label>
+        <input type="text" class="form-input" id="nombre" placeholder="Escriba su Nombre">
+
+        <label for="apellidop" class="form-label">Apellido Materno</label>
+        <input type="text" class="form-input" id="apellido_materno" placeholder="Escriba su Apellido Materno"><br><br>
+
+        <label for="apellidop" class="form-label">Apellido Paterno</label>
+        <input type="text" class="form-input" id="apellido_paterno" placeholder="Escriba su Apellido Paterno"><br><br>
+
+
+
+        <label for="primary">Correo Electronico:</label>
+        <input type="email" id="correo" placeholder="dona@raul.cl" /> <br><br>
+
+        Razón:
+           <select id="razon">
+                <option value=".">.....</option>
+               <option value="r"> reclamo</option>
+               <option value="f"> felicitación</option>
+               <option value="c">consulta</option>
+               <option value="O"> Otros</option>
+           </select> <br><br>
+
+        <input type="button" class="form-submit"  value="enviar"  onclick="rescatarFormulario()" >
+
+       <div id="json" class="hide">
+        <div class="buttuns">
+                <input type="button" class="form-submit"  value="cerrar"  onclick="" >
+
+        </div>
+     
+
+        </div>
+
+    </form>
+</div>
+
+<script src="js/object.js"></script>
+</body>
+</html>

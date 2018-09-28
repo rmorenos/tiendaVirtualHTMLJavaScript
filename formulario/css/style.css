@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -box-sizing: border-box;
+
+}
+
+body{
+    background-image: url("../img/body-fondo.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.container .form .form-header .form-title {
+    font-weight: normal;
+    color: white;
+}
+
+.container .form .form-header .form-title span {
+    color: yellow;
+}
+
+.container .form  {
+    background: rgba(0,0,0,.6);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 10px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+
+}
+.form{
+    color: white;
+}
+
+
+.container .form .form-label {
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    position: relative;
+    padding: 7px;
+}
+
+.container .form .form-input, .text-pre{
+    background: rgba(0,0,0,.7);
+    border: none;
+    outline:  none;
+    border-bottom: 2px solid #00a0d2;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+.casilla {
+    display: block;
+}
+.hobbit {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#edad{
+    max-width: 50px;
+}
+
+#json{
+    border: solid 1px blue;
+    position: absolute;
+    left: 2%;  
+    top: 10%;
+    z-index: 0;
+    width: 400px;
+    height: 400px;
+   
+}
+
+.buttuns{
+    float: right;
+    
+}
+
+.hide{
+    display: none;  
+}
+
+
