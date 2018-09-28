@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 
-    
+    <script src="js/object.js"></script>    
 </head>
 <body>
 <div class="container">
@@ -17,18 +17,18 @@
         </div>
 
         <label for="nombre" class="form-label">Nombres</label>
-        <input type="text" class="form-input" id="nombre" placeholder="Escriba su Nombre">
+        <input type="text" class="form-input" id="nombre" id="borrar" placeholder="Escriba su Nombre" required>
 
         <label for="apellidop" class="form-label">Apellido Materno</label>
         <input type="text" class="form-input" id="apellido_materno" placeholder="Escriba su Apellido Materno"><br><br>
 
         <label for="apellidop" class="form-label">Apellido Paterno</label>
-        <input type="text" class="form-input" id="apellido_paterno" placeholder="Escriba su Apellido Paterno"><br><br>
+        <input type="text" class="form-input" id="apellido_paterno" placeholder="Escriba su Apellido Paterno" required><br><br>
 
 
 
         <label for="primary">Correo Electronico:</label>
-        <input type="email" id="correo" placeholder="dona@raul.cl" /> <br><br>
+        <input type="email" id="correo" placeholder="dona@raul.cl" required> <br><br>
 
         Razón:
            <select id="razon">
@@ -39,7 +39,7 @@
                <option value="O"> Otros</option>
            </select> <br><br>
 
-        <input type="button" class="form-submit"  value="enviar"  onclick="rescatarFormulario()" >
+        <input type="button" class="form-submit"  value="enviar"  onclick="rescatarFormulario()">
 
        <div id="json" class="hide">
         <div class="buttuns">
@@ -52,7 +52,7 @@
 
     </form>
 </div>
+<textarea name="textarea" id="text" rows="10" cols="50" class="hide">Write something here</textarea>
 
-<script src="js/object.js"></script>
 </body>
 </html>
