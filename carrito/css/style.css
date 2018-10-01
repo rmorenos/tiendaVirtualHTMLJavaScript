@@ -1,0 +1,263 @@
+﻿
+html{
+    font-family: 'Crimson Text', serif;
+}
+
+.content{
+    background-color: white;
+    height: 90vh;
+    width: 85vw;
+    box-shadow: 0 3px 6px rgba(0.0,0,0.16), 0 3px 6px rgba(0,0,0,0.32);
+    position: relative;
+    overflow: scroll;
+    padding: 0.5em;
+    border-radius: 20px;
+
+}
+
+.container{
+    background-color: #00a0d2;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grup_item{
+    height: 400px;
+    margin-top: 60px;
+    margin-left: 25px;
+    display: flex;
+    width: 70%;
+}
+.item{
+    border: solid 1px black;
+    height: 100%;
+    width: 250px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.itemf{
+    border: solid 1px black;
+    width: 100%;
+    height: 55%;
+}
+.itemt{
+    border: solid 1px black;
+    width: 100%;
+    height: 44%;
+}
+.item:hover{
+    box-shadow: 0 3px 6px rgba(0.0,0,0.16), 0 3px 6px rgba(0,0,0,0.85);
+    border-radius: 10px;
+}
+img{
+    vertical-align: middle;
+}
+.dealImg{
+    max-width: 100%;
+    height: 100%;
+}
+
+img {
+    border: 0;
+}
+
+
+/*** Media query ****/
+
+
+/**
+@media ( min-width: 580px) and (max-width: 800px) {
+    th{
+        display:table-cell;
+    }
+    td{
+        display:table-cell;
+    }
+    th:nth-of-type(2){
+        text-align: center;
+    }
+    td:nth-of-type(2){
+        text-align: center;
+    }
+    td:nth-of-type(5){
+        display: none;
+    }
+    th:nth-of-type(5){
+        display: none;
+    }
+    td:nth-of-type(6){
+        display: none;
+    }
+    th:nth-of-type(6){
+        display: none;
+    }
+
+
+}
+
+
+
+@media ( min-width: 801px) and (max-width: 1114px) {
+    th{
+        display:table-cell;
+    }
+    td{
+        display:table-cell;
+    }
+    th:nth-of-type(2){
+        text-align: center;
+    }
+    td:nth-of-type(2){
+        text-align: center;
+    }
+    td:nth-of-type(5){
+        text-align: center;
+    }
+
+    td:nth-of-type(6){
+        display: none;
+    }
+    th:nth-of-type(6){
+        display: none;
+    }
+
+    .content{
+        width: 70vw;
+        height: 70vh;
+        padding: 1.8em;
+    }
+
+    img{
+        width: 65vw;
+        height: 40vh;
+    }
+    iframe{
+        width: 65vw;
+        height: 40vh;
+    }
+    .line{
+        display: block;
+    }
+    .actions {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+    }
+    .title-item {
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+
+}
+
+@media ( min-width: 1115px) and ( max-width: 1200px)  {
+    th{
+        display:table-cell;
+    }
+    td{
+        display:table-cell;
+    }
+    td:nth-of-type(2){
+        text-align: center;
+    }
+    th:nth-of-type(2){
+        text-align: center;
+    }
+
+    td:nth-of-type(5){
+        display: none;
+    }
+    th:nth-of-type(5){
+        display: none;
+    }
+    .content{
+        width: 70vw;
+        height: 70vh;
+        padding: 1.8em;
+    }
+
+    img{
+        width: 25vw;
+        height: 25vh;
+    }
+    iframe{
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .item-image{
+        display: inline-block;
+    }
+
+    .line{
+        display: inline-block;
+    }
+    .actions {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+    }
+    .title-item {
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+
+}
+@media ( min-width: 1201px)  {
+    th{
+        display:table-cell;
+    }
+    td{
+        display:table-cell;
+    }
+    td:nth-of-type(2){
+        text-align: center;
+    }
+    th:nth-of-type(2){
+        text-align: center;
+    }
+    td:nth-of-type(5){
+        text-align: center;
+    }
+    th:nth-of-type(6){
+        padding-left: 3em;
+    }
+    th:nth-of-type(5){
+        text-align: center;
+    }
+    .content{
+        width: 70vw;
+        height: 70vh;
+        padding: 1.8em;
+    }
+
+    img{
+        width: 25vw;
+        height: 25vh;
+    }
+    iframe{
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .item-image{
+        display: inline-block;
+    }
+
+    .line{
+        display: inline-block;
+    }
+    .actions {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+    }
+    .title-item {
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+
+}
+   **/

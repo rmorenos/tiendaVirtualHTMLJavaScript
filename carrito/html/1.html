@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/1.css" />
+    <title>Title</title>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="contentIzq">
+        <div class="foto">
+            <img src="../img/productos/2.jpg" class="dealImg">
+        </div>
+        <h4>En Resumen</h4>
+        <div class="letra">
+            <ul>
+                <li><p>1/4 de pollo + papas fritas + empanada de queso + aros de cebolla </p></li>
+                <li><p>Pollo entero + papas fritas + 2 empanadas + aros de cebolla </p></li>
+                <li><p>1/2 Pollo + papa wafles + aros de cebolla </p></li>
+            </ul>
+            <br>
+            <h4>Pollo Taquilla</h4>
+            <p>Este lugar de Lo Barnechea y Providencia, se especializa en pollo a las brasas.</p>
+
+            <h4>Letra chica</h4>
+            <ul>
+                <li><p>Retiro en el local  </p></li>
+                <li><p>Sucursal: General Holley 2312, Providencia </p></li>
+                <li><p>Contacto: +56232341269 </p></li>
+                <li><p>CProvidencia lunes a viernes 12:30 a 22:00. Sábados 12:30 a 15:30 horas</p></li>
+                <li><p>Sucursal: La Dehesa 541 local-5 </p></li>
+                <li><p>Horarios: La Dehesa lunes a domingo 12:00 a 15:30 horas</p></li>
+                <li><p>Contacto: +56222162120 </p></li>
+            </ul>
+
+
+        </div>
+
+    </div>
+    <div class="contentDer">
+        <div id="productoC" name="productoC" class="costo">
+            <div value="1" name="productos" class="producto_container">
+                <div  name="title"   class="title_costo">1/4 pollo + papas + empanada de queso + aros de cebolla</div>
+                <div class="costo_producto"><input type="radio"   class="productoC"></div>
+                <div name="precio" class="precio">3500</div>
+            </div>
+            <div  value="2" name="productos" class="producto_container">
+                <div   class="title_costo">Pollo entero + papas fritas + 2 empanadas + aros de cebolla</div>
+                <div class="costo_producto"><input type="radio"  id="productoCs" class="productoC"></div>
+                <div class="precio">8500</div>
+            </div>
+            <div value="3" name="productos" class="producto_container">
+                <div class="title_costo">1/2 Pollo + papa wafles + aros de cebolla</div>
+                <div class="costo_producto"><input type="radio"  id="producto" class="productoC"></div>
+                <div class="precio">5500</div>
+            </div>
+            <div class="producto_containe">
+                <div class="comprar"> <input type="button" class="form-submit"  value="comprar"  onclick="traerPrecio()"></div>
+            </div>
+            <div class="div_comprar">
+                <div id="div_comprar_title" class="div_comprar_title">
+
+                </div>
+                <div id="div_comprar_precio" class="div_comprar_precio">
+
+                </div>
+                <div id="div_comprar_cantidad" class="div_comprar_contidad">
+
+
+                </div>
+                <div id="div_comprar_precio_item" class="div_comprar_precio_item">
+            </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="../js/funciones.js"></script>
+
+</body>
+</html>

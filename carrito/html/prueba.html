@@ -1,0 +1,20 @@
+
+<html>
+<head>
+    <script type="text/javascript">
+        function agregar()
+        {
+            var o = document.createElement('input');
+            o.type = "text";
+            o.name = "lalala";
+            o.value = "";
+            document.getElementById('padre').appendChild(o);
+        }
+    </script>
+</head>
+
+<body>
+<div id="padre"></div>
+<input type="button" value="Agregar" onclick="agregar()">
+</body>
+</html>
